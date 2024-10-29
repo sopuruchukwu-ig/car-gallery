@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car-gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="auth-container">
+        <h1>register</h1>
+        <form id="form">
+           <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your Name" required>
+           </div>
+           <div class="input-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" placeholder="Enter your Password" required>
+         </div>
+         <div class="input-group">
+            <label for="comfirmPassword">comfirm password:</label>
+            <input type="comfirmPassword" id="comfirmPassword" placeholder="Enter your Password" required>
+       </div>
+         
+         <button type="submit">register</button>
+         <p id="registerError" class="error-message"></p>
+        </form>
+        <p>alrady have an account? <a href="login.html">Register</a></p>
+      </div>
+
+    <!-- <script src="index.js"></script> -->
+    <script src="auth.js"></script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 //types===>  
 (1)restful API,====> devloped by back-end and pushed to front-end
 (2)thhird party API ===> already written by others
-j-son (javascript object notation)===> it is a format that most languages umderstand and use for interaction between each other
+json (javascript object notation)===> it is a format that most languages umderstand and use for interaction between each other
 
 
 promises === it allows you to handle asynchronous operation in more managable way providing a cleaner alternatives to callbacks

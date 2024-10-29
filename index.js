@@ -1,4 +1,4 @@
-//store all cars globally fo filtering
+//store all cars globally for filtering
 let allCars = []
 
 //define an asynchronous function car data ffrom a json file
@@ -53,6 +53,12 @@ const displayCars = (cars)  => {
    <h2>${car.name}</h2>
    <p>Model: ${car.model}</p>
    `
+
+//    add cliick evnt to store a car data in localstorage and navigate to detail page 
+carCard.addEventListener('click',() => {
+    localStorage.setItem('selectedCar', JSON.stringify(car));
+    window.location.href = 'car-details.html'
+})
   // append the car card to the car container on thr webpage
   carContainer.appendChild(carCard)
    })
